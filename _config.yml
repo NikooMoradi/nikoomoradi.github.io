@@ -48,22 +48,20 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.JPEG
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hello there! I'm Nikoo Moradi, an Electrical Engineering undergraduate student, entering my third year at Sharif University of Technology. I'm on track to graduate in 2025, and I've used these formative years to delve deep into various facets of Computer Science and Electrical Engineering. My primary research interests include <mark>Computer Vision</mark>, <mark>3D Vision</mark>, and their applications in <mark>robotics</mark> and <mark>self-driving cars</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
+        # link: github.com/NikooMoradi
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  github.com/NikooMoradi
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/NikooMoradi
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -71,6 +69,38 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+      - layout: top-middle
+        title: Offline Social Media
+        # link: github.com/NikooMoradi
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/NikooMoradi
+            icon: fab fa-github
+            url: github.com/NikooMoradi
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          My Object Oriented Programming course project, using java and SQL, as well as swing for graphics
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+      - layout: top-middle
+        title: Head Football (NS version)
+        # link: github.com/NikooMoradi
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/NikooMoradi
+            icon: fab fa-github
+            url: github.com/NikooMoradi
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          another project!
+        description: | # this will include new lines to allow paragraphs
+          This project, inspired by the game Head Football LaLiga Soccer, is a fun and interactive game developed as part of a computer programming course at SUT. The game features graphical animations created using SDL 2, a popular multimedia library for C++.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -90,9 +120,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Sharif University of Technology
+        caption: 2021 - 2025 (expected)
+        sub_title: BSc in Electrical Engineering
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
