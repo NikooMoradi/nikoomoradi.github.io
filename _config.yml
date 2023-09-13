@@ -54,8 +54,8 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-        - layout: top-middle
-        # title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
+      - layout: top-middle
+        title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
         # link: github.com/NikooMoradi
         # link_text: Project Website
         additional_links:
@@ -69,7 +69,7 @@ content:
           My Signals and Systems course project
         description: | # this will include new lines to allow paragraphs
           In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics such as Modulation Index(MI), in the context of olfactory stimulation to assess their potential as biomarkers for Alzheimer's disease, using MATLAB and EEGLAB library.
-        - layout: top-middle
+      - layout: top-middle
         title: Offline Social Media
         # link: github.com/NikooMoradi
         # link_text: Project Website
@@ -85,7 +85,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project is a simulated offline social media, inspired by Twitter, offers both personal and business accounts for sharing tweets, photos, and engaging with others. Businesses can effectively promote their products and services, making it a versatile platform for all users.     
           Written in java and SQL, as well as swing for graphics.
-        - layout: top-middle
+      - layout: top-middle
         title: Head Football (NS version)
         # link: github.com/NikooMoradi
         # link_text: Project Website
