@@ -54,7 +54,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+        - layout: top-middle
         title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
         # link: github.com/NikooMoradi
         # link_text: Project Website
