@@ -12,7 +12,7 @@ email: nikoomoradi81@gmail.com
 website: nikoomoradi.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: 
@@ -61,7 +61,7 @@ content:
         additional_links:
           - title:  github.com/NikooMoradi
             icon: fab fa-github
-            url: github.com/NikooMoradi
+            url: https://github.com/NikooMoradi/Analysis-of-PLV-during-Olfactory-Stimulation
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -76,7 +76,7 @@ content:
         additional_links:
           - title:  github.com/NikooMoradi
             icon: fab fa-github
-            url: github.com/NikooMoradi
+            url: https://github.com/NikooMoradi/Offline-Social-Media
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -92,7 +92,7 @@ content:
         additional_links:
           - title:  github.com/NikooMoradi
             icon: fab fa-github
-            url: github.com/NikooMoradi
+            url: https://github.com/NikooMoradi/Head-Footbal
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -123,11 +123,11 @@ content:
         caption: 2021 - 2025 (expected)
         sub_title: BSc in Electrical Engineering
         quote: >
-          Established in 1966 with the aim of training and providing some of the specialized personnel needed in the country, at high scientific levels. This university is young and growing compared to many universities in Iran and the world. Fortunately, during its activity, it has been able to establish itself as a leading scientific institute in industry, modern technologies and applied sciences in the field of science, regionally and globally.     
+          Established in 1966 with the aim of training and providing some of the specialized personnel needed in the country, at high scientific levels. Fortunately, during its activity, it has been able to establish itself as a leading scientific institute in industry, modern technologies and applied sciences in the field of science, regionally and globally.     
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Sharif I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
 
       - layout: left
         title: Farzanegan Amin High School
@@ -136,11 +136,9 @@ content:
         quote: >
           Affiliated with the National Organization for Development of Exceptional Talents (NODET)       
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          High school was where I laid the groundwork for my academic path. It's where I learned about teamwork, time management, and handling pressure. Fond memories and the importance of work-life balance were part of the package.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-
+          Besides hitting the books, I was a memeber of Badminton and Basketball team and I actively participated in Art Competitions.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -148,10 +146,10 @@ content:
       - Arts
       - Sports
       - Hosting events
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      # Look at this cool image  
+      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
