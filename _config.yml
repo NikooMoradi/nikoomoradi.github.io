@@ -83,7 +83,7 @@ content:
         quote: >
           My Object Oriented Programming course project
         description: | # this will include new lines to allow paragraphs
-          This project is a simulated offline social media, inspired by Twitter, offers both personal and business accounts for sharing tweets, photos, and engaging with others, using Java and SQL, as well as swing for graphics.
+          This project is a simulated offline social media, inspired by Twitter, which offers both personal and business accounts for sharing tweets, photos, and engaging with others, using Java and SQL, as well as swing for graphics.
       - layout: top-middle
         title: Head Football (NS version)
         # link: github.com/NikooMoradi
