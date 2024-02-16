@@ -54,7 +54,22 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+     - layout: top-middle
+        title: EEG Signal Analysis for Pattern Recognition
+        # link: github.com/NikooMoradi
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/NikooMoradi
+            icon: fab fa-github
+            url: https://github.com/NikooMoradi/Patter-Recognition-Issue-EEG-Signals-
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          My AI and Biological Computation course project
+        description: | # this will include new lines to allow paragraphs
+              In this project, we aimed to investigate the impact of feature extraction and selection on the performance of multilayer perceptron (MLP) and radial basis function (RBF) neural networks. We utilized time and frequency domain features of EEG signals, normalized and initially selected through Fisher score, and further optimized by a Particle Swarm Optimization (PSO) algorithm. Training both networks with these selected features under 5-fold cross-validation, we compared the outcomes to highlight the PSO algorithm’s efficiency in refining feature selection. This approach demonstrated the importance of targeted feature selection in improving neural network accuracy, offering a valuable strategy for future AI applications in complex data analysis scenarios.
+    - layout: top-middle
         title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
         # link: github.com/NikooMoradi
         # link_text: Project Website
@@ -68,7 +83,7 @@ content:
         quote: >
           My Signals and Systems course project
         description: | # this will include new lines to allow paragraphs
-          In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics such as Modulation Index(MI), in the context of olfactory stimulation to assess their potential as biomarkers for Alzheimer's disease. I accomplished this by utilizing MATLAB and performing pre-processing on EEG signals with the EEGLAB library.
+          In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics such as Mo
       - layout: top-middle
         title: Offline Social Media
         # link: github.com/NikooMoradi
