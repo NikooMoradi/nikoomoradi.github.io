@@ -142,14 +142,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my past four years at Sharif, I've gained invaluable experience and knowledge, both in academia and life. I've significantly enhanced my key skills, including teamwork and meeting tight deadlines. Every moment at Sharif has been thoroughly enjoyable, and I eagerly anticipate what lies ahead.
 
-          # I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
+          I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
 
       - layout: left
         title: Farzanegan Amin High School
         caption: 2018 - 2021
-        sub_title: Diploma in Mathematics and Physics
-        quote: >
-          Affiliated with the National Organization for Development of Exceptional Talents (NODET)       
+        sub_title: Diploma in Mathematics and Physics    
         description: | # this will include new lines to allow paragraphs
           High school was where I laid the groundwork for my academic path. It's where I learned about teamwork, time management, and handling pressure. Fond memories and the importance of work-life balance were part of the package.
 
