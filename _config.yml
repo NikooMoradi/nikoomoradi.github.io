@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Nikoo Moradi
+name: Nikou Moradi
 title: 
 email: nikoomoradi81@gmail.com
 website: nikoomoradi.github.io
@@ -48,7 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.JPEG
 about_content: | # this will include new lines to allow paragraphs
-  Hello there! I'm Nikoo Moradi, an Electrical Engineering undergraduate student, entering my third year at Sharif University of Technology. I'm on track to graduate in 2025, and I've used these formative years to delve deep into various facets of Computer Science and Electrical Engineering. My primary research interests include <mark>Computer Vision</mark>, <mark>3D Vision</mark>, and their applications in <mark>robotics</mark> and <mark>self-driving cars</mark>.
+  Hello there! I'm Nikou Moradi, an Electrical Engineering undergraduate student, entering my last semester at Sharif University of Technology. I'm on track to graduate by july 2025, and I've used these formative years to delve deep into various facets of Computer Science and Electrical Engineering. My primary research interests include <mark>Medical Image Analysis</mark>, <mark>Neuroscience/mark>, and <mark>applications of AI in healthcare</mark>. 
+  This page is currently under construction!
 
 content:
   - title: Projects # Title for the section
@@ -83,37 +84,37 @@ content:
         quote: >
           My Signals and Systems course project
         description: | # this will include new lines to allow paragraphs
-          In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics such as Mo
-      - layout: top-middle
-        title: Offline Social Media
-        # link: github.com/NikooMoradi
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/NikooMoradi
-            icon: fab fa-github
-            url: https://github.com/NikooMoradi/Offline-Social-Media
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          My Object Oriented Programming course project
-        description: | # this will include new lines to allow paragraphs
-          This project is a simulated offline social media, inspired by Twitter, which offers both personal and business accounts for sharing tweets, photos, and engaging with others, using Java and SQL, as well as swing for graphics.
-      - layout: top-middle
-        title: Head Football (NS version)
-        # link: github.com/NikooMoradi
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/NikooMoradi
-            icon: fab fa-github
-            url: https://github.com/NikooMoradi/Head-Footbal
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          My Basic Programming course project
-        description: | # this will include new lines to allow paragraphs
-          This project, inspired by the game Head Football LaLiga Soccer, is a fun and interactive game developed as part of a computer programming course at SUT. The game features graphical animations created using SDL 2, a popular multimedia library for C++.
+          In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics as a biomarker for Alzheimers Disease. 
+      # - layout: top-middle
+      #   title: Offline Social Media
+      #   # link: github.com/NikooMoradi
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title:  github.com/NikooMoradi
+      #       icon: fab fa-github
+      #       url: https://github.com/NikooMoradi/Offline-Social-Media
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   quote: >
+      #     My Object Oriented Programming course project
+      #   description: | # this will include new lines to allow paragraphs
+      #     This project is a simulated offline social media, inspired by Twitter, which offers both personal and business accounts for sharing tweets, photos, and engaging with others, using Java and SQL, as well as swing for graphics.
+      # - layout: top-middle
+      #   title: Head Football (NS version)
+      #   # link: github.com/NikooMoradi
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title:  github.com/NikooMoradi
+      #       icon: fab fa-github
+      #       url: https://github.com/NikooMoradi/Head-Footbal
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   quote: >
+      #     My Basic Programming course project
+      #   description: | # this will include new lines to allow paragraphs
+      #     This project, inspired by the game Head Football LaLiga Soccer, is a fun and interactive game developed as part of a computer programming course at SUT. The game features graphical animations created using SDL 2, a popular multimedia library for C++.
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -139,13 +140,13 @@ content:
         quote: >
         # Established in 1966 with the aim of training and providing some of the specialized personnel needed in the country, at high scientific levels. Fortunately, during its activity, it has been able to establish itself as a leading scientific institute in industry, modern technologies and applied sciences in the field of science, regionally and globally.     
         description: | # this will include new lines to allow paragraphs
-          During my past two years at Sharif, I've gained invaluable experience and knowledge, both in academia and life. I've significantly enhanced my key skills, including teamwork and meeting tight deadlines. Every moment at Sharif has been thoroughly enjoyable, and I eagerly anticipate what lies ahead.
+          During my past four years at Sharif, I've gained invaluable experience and knowledge, both in academia and life. I've significantly enhanced my key skills, including teamwork and meeting tight deadlines. Every moment at Sharif has been thoroughly enjoyable, and I eagerly anticipate what lies ahead.
 
-          I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
+          # I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
 
       - layout: left
         title: Farzanegan Amin High School
-        caption: 2017 - 2021
+        caption: 2018 - 2021
         sub_title: Diploma in Mathematics and Physics
         quote: >
           Affiliated with the National Organization for Development of Exceptional Talents (NODET)       
