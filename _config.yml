@@ -49,7 +49,6 @@ additional_links:
 about_profile_image: images/profile.JPEG
 about_content: | # this will include new lines to allow paragraphs
   Hello there! I'm Nikou Moradi, an Electrical Engineering undergraduate student, entering my last semester at Sharif University of Technology. I'm on track to graduate by july 2025, and I've used these formative years to delve deep into various facets of Computer Science and Electrical Engineering. My primary research interests include <mark>Medical Image Analysis</mark>, <mark>Neuroscience/mark>, and <mark>applications of AI in healthcare</mark>. 
-  This page is currently under construction!
 
 content:
   - title: Projects # Title for the section
