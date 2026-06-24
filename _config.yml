@@ -1,3 +1,4 @@
+```yaml
 # Site
 repository: NikooMoradi/nikoomoradi.github.io
 favicon: images/favicon.ico
@@ -6,166 +7,208 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Nikou Moradi
-title: 
+name: Nikoo Moradi
+title: PhD Student | AI4BI CDT | University of Edinburgh
 email: nikoomoradi81@gmail.com
 website: nikoomoradi.github.io
 
-# Dark Mode (true/false/never)
+# Dark Mode
 darkmode: true
 
 # Social links
-twitter_username: 
-github_username:  NikooMoradi
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: 
+twitter_username:
+github_username: NikooMoradi
+instagram_username:
 linkedin_username: nikoo-moradi
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: 
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+youtube_username:
+# google_scholar_username:
+# orcid_username:
 
 # Additional icon links
 additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: Google Scholar
+    icon: fas fa-graduation-cap
+    url:
+  - title: Personal Website
+    icon: fas fa-globe
+    url: https://nikoomoradi.github.io
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# gtm:
+# gtag:
+# google_analytics:
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.JPEG
-about_content: | # this will include new lines to allow paragraphs
-  Hello there! I'm Nikou Moradi, an Electrical Engineering undergraduate student, entering my last semester at Sharif University of Technology. I'm on track to graduate by july 2025, and I've used these formative years to delve deep into various facets of Computer Science and Electrical Engineering. My primary research interests include <mark>Medical Image Analysis</mark>, <mark>Neuroscience/mark>, and <mark>applications of AI in healthcare</mark>. 
+about_content: |
+  Hello! I'm Nikoo Moradi, a first-year PhD student in the UKRI AI Centre for Biomedical Innovation (AI4BI CDT) at the University of Edinburgh.
+
+  My research focuses on developing <mark>AI-driven EEG biomarkers</mark> for <mark>neurodevelopmental disorders</mark>, with a current focus on <mark>SYNGAP1-related disorder</mark>. I work at the intersection of machine learning, EEG signal processing, neuroscience, and healthcare AI.
+
+  I am interested in building interpretable and clinically useful AI systems that can identify meaningful patterns in neural recordings, support biomarker discovery, and help measure disease severity and treatment response.
+
+  My broader research interests include <mark>NeuroAI</mark>, <mark>EEG biomarkers</mark>, <mark>explainable AI</mark>, <mark>medical image analysis</mark>, and <mark>AI for healthcare</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Current Research
+    layout: text
+    content: |
+      My PhD project is titled **Artificial Intelligence EEG Biomarkers for Neurodevelopmental Disorders**.
+
+      I am developing machine-learning pipelines to analyse EEG recordings from animal models and human cohorts of SYNGAP1-related disorder. The goal is to discover objective EEG-based biomarkers that can distinguish affected individuals from controls, track disease severity, and measure treatment response.
+
+      My current work includes EEG preprocessing, artifact and seizure removal, feature engineering, subject-level cross-validation, BorutaSHAP feature selection, Hyperopt hyperparameter tuning, and tree-based models such as XGBoost and CatBoost.
+
+      I am especially interested in interpretable AI methods that can reveal biologically meaningful EEG signatures, such as spectral, connectivity, and complexity-based features.
+
+  - title: Research Highlights
+    layout: text
+    content: |
+      - Developing AI-based EEG biomarkers for SYNGAP1-related disorder.
+      - Working with rodent and human EEG datasets, including sleep-staged recordings.
+      - Achieved strong preliminary animal-level classification performance using EEG features and XGBoost.
+      - Investigating alpha-delta ratio and cross-channel connectivity as candidate EEG biomarkers.
+      - Extending the work toward severity prediction, treatment-response modelling, deep learning, and explainable AI.
+      - First-place team in Task 1 of the HNTS-MRG24 MICCAI Challenge.
+
+  - title: Publications
+    layout: list
     content:
+      - layout: top-middle
+        title: VS-DDPM: Efficient Low-Cost Diffusion Model for Medical Modality Translation
+        sub_title: arXiv
+        description: |
+          N. Moradi, G. Luijten, B. Puladi, J. Kleesiek, V. Alves, J. Egger, A. Ferreira.
+
+      - layout: top-middle
+        title: Comparative Analysis of nnUNet and MedNeXt for Head and Neck Tumor Segmentation in MRI-guided Radiotherapy
+        sub_title: arXiv
+        description: |
+          N. Moradi, A. Ferreira, B. Puladi, J. Kleesiek, E. Fatemizadeh, G. Luijten, V. Alves, J. Egger.
+
+      - layout: top-middle
+        title: Machine Learning EEG Biomarkers in SYNGAP1 Rodent Models
+        sub_title: IEEE EMBC 2026, accepted one-page paper
+        description: |
+          Work on EEG-based machine-learning biomarkers for SYNGAP1-related disorder using rodent model recordings.
+
+  - title: Research Experience
+    layout: list
+    content:
+      - layout: left
+        title: University of Edinburgh
+        caption: Nov 2025 - Present
+        sub_title: PhD Student, AI4BI CDT
+        quote: >
+          Artificial Intelligence EEG Biomarkers for Neurodevelopmental Disorders
+        description: |
+          I am developing interpretable machine-learning methods for EEG biomarker discovery in SYNGAP1-related disorder and related neurodevelopmental conditions.
+
+          My work combines EEG signal processing, feature engineering, subject-level machine-learning evaluation, explainable AI, and translational neuroscience.
+
+      - layout: left
+        title: Institute for AI in Medicine, Essen
+        caption: Jun 2024 - Oct 2024
+        sub_title: Remote Research Intern
+        quote: >
+          Medical image segmentation for MRI-guided adaptive radiotherapy
+        description: |
+          I contributed to the HNTS-MRG24 MICCAI Challenge, focusing on head and neck tumor segmentation in MRI-guided radiotherapy.
+
+          I worked on nnUNet and MedNeXt-based segmentation pipelines, helped write the final paper, and presented our method at the challenge live event.
+
+          Our team achieved **1st place in Task 1** for pre-radiotherapy tumor segmentation.
+
+  - title: Selected Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: AI EEG Biomarkers for SYNGAP1-related Disorder
+        quote: >
+          PhD research project
+        description: |
+          Developing machine-learning and explainable AI methods to discover EEG biomarkers for neurodevelopmental disorders, with a focus on SYNGAP1-related disorder.
+
       - layout: top-middle
         title: EEG Signal Analysis for Pattern Recognition
-        # link: github.com/NikooMoradi
-        # link_text: Project Website
         additional_links:
-          - title:  github.com/NikooMoradi
+          - title: GitHub
             icon: fab fa-github
             url: https://github.com/NikooMoradi/Patter-Recognition-Issue-EEG-Signals-
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          My AI and Biological Computation course project
-        description: | # this will include new lines to allow paragraphs
-              In this project, we aimed to investigate the impact of feature extraction and selection on the performance of multilayer perceptron (MLP) and radial basis function (RBF) neural networks. We utilized time and frequency domain features of EEG signals, normalized and initially selected through Fisher score, and further optimized by a Particle Swarm Optimization (PSO) algorithm. Training both networks with these selected features under 5-fold cross-validation, we compared the outcomes to highlight the PSO algorithm’s efficiency in refining feature selection. This approach demonstrated the importance of targeted feature selection in improving neural network accuracy, offering a valuable strategy for future AI applications in complex data analysis scenarios.
+          EEG, feature selection, machine learning
+        description: |
+          Developed a pattern-recognition system for classifying emotional responses from EEG signals. The project included time-domain and frequency-domain feature extraction, Fisher score feature ranking, Particle Swarm Optimization, and MLP/RBF neural-network classification.
+
       - layout: top-middle
-        title: Analysis of Phase Locking Value during Olfactory Stimulation as a Biomarker for Alzheimers Disease in EEG Signals
-        # link: github.com/NikooMoradi
-        # link_text: Project Website
+        title: EEG Biomarker Analysis for Alzheimer's Disease
         additional_links:
-          - title:  github.com/NikooMoradi
+          - title: GitHub
             icon: fab fa-github
             url: https://github.com/NikooMoradi/Analysis-of-PLV-during-Olfactory-Stimulation
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          My Signals and Systems course project
-        description: | # this will include new lines to allow paragraphs
-          In this project, I investigated Phase Locking Value(PLV) and other phase amplitude coupling metrics as a biomarker for Alzheimers Disease. 
-      # - layout: top-middle
-      #   title: Offline Social Media
-      #   # link: github.com/NikooMoradi
-      #   # link_text: Project Website
-      #   additional_links:
-      #     - title:  github.com/NikooMoradi
-      #       icon: fab fa-github
-      #       url: https://github.com/NikooMoradi/Offline-Social-Media
-      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #     #   icon: fab fa-github
-      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #   quote: >
-      #     My Object Oriented Programming course project
-      #   description: | # this will include new lines to allow paragraphs
-      #     This project is a simulated offline social media, inspired by Twitter, which offers both personal and business accounts for sharing tweets, photos, and engaging with others, using Java and SQL, as well as swing for graphics.
-      # - layout: top-middle
-      #   title: Head Football (NS version)
-      #   # link: github.com/NikooMoradi
-      #   # link_text: Project Website
-      #   additional_links:
-      #     - title:  github.com/NikooMoradi
-      #       icon: fab fa-github
-      #       url: https://github.com/NikooMoradi/Head-Footbal
-      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #     #   icon: fab fa-github
-      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #   quote: >
-      #     My Basic Programming course project
-      #   description: | # this will include new lines to allow paragraphs
-      #     This project, inspired by the game Head Football LaLiga Soccer, is a fun and interactive game developed as part of a computer programming course at SUT. The game features graphical animations created using SDL 2, a popular multimedia library for C++.
+          EEG connectivity and biomarker analysis
+        description: |
+          Investigated Phase Locking Value and phase-amplitude coupling metrics during olfactory stimulation as potential EEG biomarkers for Alzheimer's disease.
 
-  # - title: Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - layout: top-middle
+        title: HNTS-MRG24 MICCAI Challenge
+        quote: >
+          Medical image segmentation
+        description: |
+          Developed and evaluated deep-learning methods for segmentation of head and neck tumors in MRI-guided radiotherapy. Our team ranked 1st in Task 1 of the challenge.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Sharif University of Technology
-        caption: 2021 - 2025 (expected)
-        sub_title: BSc in Electrical Engineering
+        title: University of Edinburgh
+        caption: Sep 2025 - Expected 2029
+        sub_title: PhD, UKRI AI Centre for Biomedical Innovation
         quote: >
-        # Established in 1966 with the aim of training and providing some of the specialized personnel needed in the country, at high scientific levels. Fortunately, during its activity, it has been able to establish itself as a leading scientific institute in industry, modern technologies and applied sciences in the field of science, regionally and globally.     
-        description: | # this will include new lines to allow paragraphs
-          During my past four years at Sharif, I've gained invaluable experience and knowledge, both in academia and life. I've significantly enhanced my key skills, including teamwork and meeting tight deadlines. Every moment at Sharif has been thoroughly enjoyable, and I eagerly anticipate what lies ahead.
+          Artificial Intelligence EEG Biomarkers for Neurodevelopmental Disorders
+        description: |
+          Supervisors: Dr. Alfredo Gonzalez-Sulser and Prof. Javier Escudero.
 
-          I spend a lot of my free time participating in Resana Association activities, which include hosting events and serving as a staff member for various occasions.
+          My PhD focuses on AI-driven EEG biomarker discovery for neurodevelopmental disorders.
 
       - layout: left
-        title: Farzanegan Amin High School
-        caption: 2018 - 2021
-        sub_title: Diploma in Mathematics and Physics    
-        description: | # this will include new lines to allow paragraphs
-          High school was where I laid the groundwork for my academic path. It's where I learned about teamwork, time management, and handling pressure. Fond memories and the importance of work-life balance were part of the package.
+        title: Sharif University of Technology
+        caption: Oct 2021 - Aug 2025
+        sub_title: BSc in Electrical Engineering
+        description: |
+          During my undergraduate studies, I worked on several projects in machine learning, EEG signal analysis, medical imaging, and AI for healthcare.
 
-          Besides hitting the books, I was a memeber of Badminton and Basketball team and I actively participated in Art Competitions.
+          I also served as a teaching assistant for several courses, including Electrical Circuits, Logical Circuits and Digital Systems, Mathematical Methods in Engineering, and Electrical Circuits Lab.
+
+  - title: Honors and Awards
+    layout: text
+    content: |
+      - **1st Place**, HNTS-MRG24 MICCAI Challenge, Task 1, 2024.
+      - **Accepted Paper**, IEEE EMBC 2026.
+      - **UKRI AI4BI CDT PhD Studentship**, University of Edinburgh.
+      - **National University Entrance Exam**, ranked among the top 0.1% among more than 140,000 participants.
+
+  - title: Skills
+    layout: text
+    content: |
+      **Programming:** Python, MATLAB, C++, LaTeX
+
+      **Machine Learning and AI:** PyTorch, TensorFlow, Scikit-learn, XGBoost, CatBoost, Hyperopt, BorutaSHAP
+
+      **EEG and Signal Processing:** MNE, EEGLAB, spectral analysis, connectivity features, complexity features, artifact detection
+
+      **Medical Imaging:** nnUNet, MedNeXt, MRI/CT analysis, image segmentation, diffusion models
+
+      **Research Interests:** NeuroAI, EEG biomarkers, explainable AI, medical AI, neurodevelopmental disorders, computational neuroscience
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in electrical engineering some of my other interests and hobbies are:
-      - Arts
-      - Sports
-      - Hosting events
-# - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-# Look at this cool image  
-# ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      Outside research, I enjoy art, sports, and organising events. I also enjoy working in collaborative research environments and communicating scientific ideas clearly.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -175,4 +218,5 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+```
